@@ -1,4 +1,4 @@
-FROM armbuild/debian:sid
+FROM resin/armv7hf-debian:sid
 MAINTAINER Heiko Hüter <ender@ender74.de>
 
 RUN apt-get update -y \
