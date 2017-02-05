@@ -2,4 +2,4 @@ version: '2'
 services:
     golang-arm:
         build: .
-        image: ender74/golang-arm
+        image: ender74/golang-arm:1.7
