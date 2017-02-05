@@ -7,3 +7,5 @@ RUN apt-get update -y \
     && apt-get autoremove -y \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/* /root/.cache
+
+ENV GOPATH=/opt/go
